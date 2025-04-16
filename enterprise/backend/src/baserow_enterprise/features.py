@@ -11,3 +11,5 @@ CHART_WIDGET = "chart_widget"
 ADVANCED_WEBHOOKS = "advanced_webhooks"
 
 BUILDER_SSO = "application_user_sso"
+def has_feature(feature, *args, **kwargs):
+    return True
