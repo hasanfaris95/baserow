@@ -11,5 +11,7 @@ CHART_WIDGET = "chart_widget"
 ADVANCED_WEBHOOKS = "advanced_webhooks"
 
 BUILDER_SSO = "application_user_sso"
-def has_feature(feature, *args, **kwargs):
+def has_feature(feature, license=None, user=None):
+    # You can log features being accessed if you want
+    print(f"[MAS Patch] Feature accessed: {feature}")
     return True
